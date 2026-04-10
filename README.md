@@ -33,23 +33,27 @@ git clone https://github.com/YOUR_USERNAME/blind-assist-ai.git
 cd blind-assist-ai
 ```
 ### 2.Install dependencies
+```bash
 pip install -r requirements.txt
+```
 ### 3. Run the project
+```bash
 python main.py
+```
 
 ## How It Works
-1.Captures live video using webcam
-2.Uses YOLOv8 model to detect objects
-3.Extracts object labels
-4.Converts labels into a sentence
-5.Uses text-to-speech to speak the result
+- Captures live video using webcam
+- Uses YOLOv8 model to detect objects
+- Extracts object labels
+- Converts labels into a sentence
+- Uses text-to-speech to speak the result
 
 
 ## Future Improvements
-1.Add object direction detection (left/right)
-2.Improve detection stability using tracking
-3.Optimize for mobile or edge devices
-4.Add custom-trained model for better accuracy
+- Add object direction detection (left/right)
+- Improve detection stability using tracking
+- Optimize for mobile or edge devices
+- Add custom-trained model for better accuracy
 
 
 
