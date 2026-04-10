@@ -56,9 +56,3 @@ python main.py
 - Add custom-trained model for better accuracy
 
 
-
-
-
-
-
-dt-ai
